@@ -2,7 +2,7 @@
 
 A real-time food delivery tracking application built with modern web technologies, featuring live order tracking, ETA calculations, and real-time notifications.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This project follows a **monorepo structure** with separate backend and frontend applications:
 
@@ -11,7 +11,7 @@ This project follows a **monorepo structure** with separate backend and frontend
 - **Real-time Communication**: WebSocket connections for live updates
 - **Maps & Routing**: Google Maps API for ETA calculations and route optimization
 
-## 🚀 Features
+## Features
 
 - **Real-time Order Tracking**: Live updates on delivery status and location
 - **Interactive Maps**: Mapbox integration for visual order tracking
@@ -20,7 +20,7 @@ This project follows a **monorepo structure** with separate backend and frontend
 - **Responsive Design**: Modern UI built with React and CSS-in-JS
 - **WebSocket Communication**: Real-time bidirectional communication
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Runtime**: Node.js
@@ -39,7 +39,7 @@ This project follows a **monorepo structure** with separate backend and frontend
 - **Routing**: React Router DOM
 - **Styling**: CSS Modules / Tailwind CSS
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 food-delivery-app/
@@ -58,7 +58,7 @@ food-delivery-app/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -132,14 +132,14 @@ food-delivery-app/
    psql -d food_delivery -f server/schema.sql
    ```
 
-## 🔧 Development
+## Development
 
 - **Backend**: Runs on `http://localhost:4000`
 - **Frontend**: Runs on `http://localhost:3000`
 - **Database**: PostgreSQL on port 5432
 - **Redis**: Redis server on port 6379
 
-## 📱 API Endpoints
+## API Endpoints
 
 - `GET /` - Health check
 - `POST /api/orders` - Create new order
@@ -147,7 +147,7 @@ food-delivery-app/
 - `PUT /api/orders/:id/status` - Update order status
 - `GET /api/orders/:id/tracking` - Get real-time tracking info
 
-## 🌟 Key Features Implementation
+## Key Features Implementation
 
 ### Real-time Tracking
 - WebSocket connections for live updates
@@ -164,7 +164,7 @@ food-delivery-app/
 - Redis caching for performance
 - Real-time status updates
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Considerations
 - Use pgBouncer for database connection pooling
@@ -173,7 +173,7 @@ food-delivery-app/
 - Configure CORS for production domains
 - Implement rate limiting and security measures
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -181,11 +181,11 @@ food-delivery-app/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Google Maps API for routing and ETA calculations
 - Mapbox for interactive mapping solutions
